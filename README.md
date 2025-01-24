@@ -13,9 +13,9 @@ Ever wondered how big in tokens are your codebase? No? Well, too bad, because `c
 
 ## Installation
 
-`code
-pis install countmytokens
-``
+```code
+pip install countmytokens
+```
 
 For users who prefer to use `pipx`, you can install it globally:
 
@@ -30,9 +30,9 @@ uv tool install countmytokens
 ```
 
 ## Usage
-`code
+```code
 countmytokens /path/to/your/code/project
-``
+```
 
 Options
 
@@ -50,9 +50,9 @@ Output file for CSV report. Default is `token_report.csv`. Creative, huh?
 Increase output verbosity
 
 ### Example
-``code
+```code
 countmytokens /path/to/your/code/project --exclude venv --report tree --verbose
-``
+```
 
 ## Contributing
 Feel free to contribute. Or don't. It's your life.
