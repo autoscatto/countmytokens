@@ -36,13 +36,13 @@ countmytokens /path/to/your/code/project
 
 Options
 
-- *--exclude**:
+- **--exclude**:
 Paths to exclude. Because some files just don't deserve to be counted.
-- *--include-binary**:
+- **--include-binary**:
 Include binary files in the token count. If you're into that sort of thing.
-- *--max-files**:
+- **--max-files**:
 Maximum concurrent file operations. Default is 100. Because why not?
-- *--report**:
+- **--report**:
 Choose your report format: `lines` or `tree`
 - **--output**:
 Output file for CSV report. Default is `token_report.csv`. Creative, huh?
